@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="DemoApp.View.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout Padding="40">
+        <Label Text="Signup" FontSize="30" HorizontalOptions="CenterAndExpand" Margin="0,0,0,20"/>
+        <Entry Placeholder="Username" x:Name="UsernameEntry" />
+        <Entry Placeholder="Email" x:Name="EmailEntry" Keyboard="Email" />
+        <Entry Placeholder="Password" x:Name="PasswordEntry" IsPassword="True" />
+        <Button Text="Signup"  HorizontalOptions="FillAndExpand" Margin="0,20,0,0" Clicked="Button_Clicked"/>
+  </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
